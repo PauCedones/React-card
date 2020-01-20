@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
+
+.card{
+    width: 250px;
+    height: 500px;
+    border: 5px solid black;
+    overflow: hidden;
+    background-size: 700px;
+    background-position: 393px -90px;
+    position: relative;
+}
+
+.card-article{
+
+    background-color: white;
+    background-position:bottom;
+    width: 210px;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    padding: 7px;
+    font-family: rubik;
+    
+}
+
+h1{
+    display: flex;
+    font-size: 12px;
+    font-weight: lighter;
+    line-height: 0px;
+}
+
+h2{
+    display: flex;
+    font-size: 30px;
+    line-height: 0px;
+}
+
+p{
+    font-weight: normal;
+    font-size: 12px;
+    padding:5px;
+}
+
+footer{
+position:absolute;
+bottom: 0px;
+left: 200px;
+
+}
+
+button{
+    width: 10px;
+}
+
