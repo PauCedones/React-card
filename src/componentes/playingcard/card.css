@@ -1,27 +1,40 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700&display=swap');
 
+div{
+    display:flex;
+    justify-content: space-between;
+}
+
 .card{
     width: 250px;
     height: 500px;
-    border: 5px solid black;
     overflow: hidden;
     background-size: 700px;
     background-position: 393px -90px;
     position: relative;
+    margin:20px;
+    border: 1px solid black;
 }
 
 .card-article{
 
     background-color: white;
     background-position:bottom;
-    width: 210px;
+    width: 230px;
     height: 100px;
     position: absolute;
     bottom: 0px;
-    left: 15px;
+    left: 10px;
     padding: 7px;
     font-family: rubik;
-    
+    transition: all 0.5s ease-in;
+    box-sizing: border-box;
+}
+
+.card-article:hover{
+    left: 0;
+    width:250px;
+    height: 500px;
 }
 
 h1{
@@ -46,11 +59,25 @@ p{
 footer{
 position:absolute;
 bottom: 0px;
-left: 200px;
+left: 194px;
 
 }
 
 button{
-    width: 10px;
+    width: 30px;
+    background-color: #04b7ac;
+    border:none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+
+button:hover{
+    background-color: white;
+    color: #04b7ac;
+    border:0.5px solid #04b7ac;
 }
 
